@@ -35,8 +35,8 @@ body{
 }
 
 .my_image{
-       width:100%;
-       height:auto;
+       width:200px;
+       height:200px;
 }
 
 .my_title{
@@ -46,7 +46,7 @@ body{
 }
 
 .my_image_padding{
-        padding:10px;
+        padding:5px;
 }
 
 .my_bottom_margin{
@@ -59,11 +59,15 @@ body{
         letter-spacing:.2em;
 }
 
+.card{
+   margin-bottom:2px;
+
+}
 /***product page***/
 
 .my_prod_row_class{
          padding-top:10px;
-         padding-bottom:5px;
+         padding-bottom:10px;
 }
 
 .my_prod_row_class .mx_auto{
@@ -103,11 +107,13 @@ body{
 }
 .custom_a{
      text-decoration:none;
+     font-weight: normal;
 }
 
 .custom_icon{
       text-decoration:none;
       color:#868e96 !important;
+      font-weight: normal;
 }
 
 .my_custom_button{
